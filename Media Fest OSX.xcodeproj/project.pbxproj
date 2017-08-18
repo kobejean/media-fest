@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DA21EF81B79AD0400EAC687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA21EF71B79AD0400EAC687 /* AppDelegate.swift */; };
+		3DA21EFA1B79AD0400EAC687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA21EF91B79AD0400EAC687 /* ViewController.swift */; };
+		3DA21EFC1B79AD0400EAC687 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA21EFB1B79AD0400EAC687 /* Images.xcassets */; };
+		3DA21EFF1B79AD0400EAC687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA21EFD1B79AD0400EAC687 /* Main.storyboard */; };
+		3DA21F0B1B79AD0400EAC687 /* Media_Fest_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA21F0A1B79AD0400EAC687 /* Media_Fest_OSXTests.swift */; };
+		3DA21F151B79B2D600EAC687 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA21F141B79B2D600EAC687 /* AVFoundation.framework */; };
+		3DA21F171B79BAE800EAC687 /* countdown.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA21F161B79BAE800EAC687 /* countdown.mp4 */; };
+		3DA5ADF61B7B1E72002D65DF /* countdown2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3DA5ADF51B7B1E72002D65DF /* countdown2.mov */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA21F051B79AD0400EAC687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA21EEA1B79AD0400EAC687 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA21EF11B79AD0400EAC687;
+			remoteInfo = "Media Fest OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DA21EF21B79AD0400EAC687 /* Media Fest OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Media Fest OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA21EF61B79AD0400EAC687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA21EF71B79AD0400EAC687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DA21EF91B79AD0400EAC687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DA21EFB1B79AD0400EAC687 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DA21EFE1B79AD0400EAC687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DA21F041B79AD0400EAC687 /* Media Fest OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Media Fest OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA21F091B79AD0400EAC687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA21F0A1B79AD0400EAC687 /* Media_Fest_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media_Fest_OSXTests.swift; sourceTree = "<group>"; };
+		3DA21F141B79B2D600EAC687 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3DA21F161B79BAE800EAC687 /* countdown.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = countdown.mp4; sourceTree = "<group>"; };
+		3DA5ADF51B7B1E72002D65DF /* countdown2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = countdown2.mov; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA21EEF1B79AD0400EAC687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA21F151B79B2D600EAC687 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA21F011B79AD0400EAC687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA21EE91B79AD0400EAC687 = {
+			isa = PBXGroup;
+			children = (
+				3DA21F141B79B2D600EAC687 /* AVFoundation.framework */,
+				3DA21EF41B79AD0400EAC687 /* Media Fest OSX */,
+				3DA21F071B79AD0400EAC687 /* Media Fest OSXTests */,
+				3DA21EF31B79AD0400EAC687 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA21EF31B79AD0400EAC687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA21EF21B79AD0400EAC687 /* Media Fest OSX.app */,
+				3DA21F041B79AD0400EAC687 /* Media Fest OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA21EF41B79AD0400EAC687 /* Media Fest OSX */ = {
+			isa = PBXGroup;
+			children = (
+				3DA21EF71B79AD0400EAC687 /* AppDelegate.swift */,
+				3DA21EF91B79AD0400EAC687 /* ViewController.swift */,
+				3DA21EFB1B79AD0400EAC687 /* Images.xcassets */,
+				3DA21EFD1B79AD0400EAC687 /* Main.storyboard */,
+				3DA5ADF51B7B1E72002D65DF /* countdown2.mov */,
+				3DA21F161B79BAE800EAC687 /* countdown.mp4 */,
+				3DA21EF51B79AD0400EAC687 /* Supporting Files */,
+			);
+			path = "Media Fest OSX";
+			sourceTree = "<group>";
+		};
+		3DA21EF51B79AD0400EAC687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA21EF61B79AD0400EAC687 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DA21F071B79AD0400EAC687 /* Media Fest OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DA21F0A1B79AD0400EAC687 /* Media_Fest_OSXTests.swift */,
+				3DA21F081B79AD0400EAC687 /* Supporting Files */,
+			);
+			path = "Media Fest OSXTests";
+			sourceTree = "<group>";
+		};
+		3DA21F081B79AD0400EAC687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA21F091B79AD0400EAC687 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA21EF11B79AD0400EAC687 /* Media Fest OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA21F0E1B79AD0400EAC687 /* Build configuration list for PBXNativeTarget "Media Fest OSX" */;
+			buildPhases = (
+				3DA21EEE1B79AD0400EAC687 /* Sources */,
+				3DA21EEF1B79AD0400EAC687 /* Frameworks */,
+				3DA21EF01B79AD0400EAC687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Media Fest OSX";
+			productName = "Media Fest OSX";
+			productReference = 3DA21EF21B79AD0400EAC687 /* Media Fest OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DA21F031B79AD0400EAC687 /* Media Fest OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA21F111B79AD0400EAC687 /* Build configuration list for PBXNativeTarget "Media Fest OSXTests" */;
+			buildPhases = (
+				3DA21F001B79AD0400EAC687 /* Sources */,
+				3DA21F011B79AD0400EAC687 /* Frameworks */,
+				3DA21F021B79AD0400EAC687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA21F061B79AD0400EAC687 /* PBXTargetDependency */,
+			);
+			name = "Media Fest OSXTests";
+			productName = "Media Fest OSXTests";
+			productReference = 3DA21F041B79AD0400EAC687 /* Media Fest OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA21EEA1B79AD0400EAC687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = mobileuse;
+				TargetAttributes = {
+					3DA21EF11B79AD0400EAC687 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3DA21F031B79AD0400EAC687 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3DA21EF11B79AD0400EAC687;
+					};
+				};
+			};
+			buildConfigurationList = 3DA21EED1B79AD0400EAC687 /* Build configuration list for PBXProject "Media Fest OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA21EE91B79AD0400EAC687;
+			productRefGroup = 3DA21EF31B79AD0400EAC687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA21EF11B79AD0400EAC687 /* Media Fest OSX */,
+				3DA21F031B79AD0400EAC687 /* Media Fest OSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA21EF01B79AD0400EAC687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA21EFC1B79AD0400EAC687 /* Images.xcassets in Resources */,
+				3DA5ADF61B7B1E72002D65DF /* countdown2.mov in Resources */,
+				3DA21F171B79BAE800EAC687 /* countdown.mp4 in Resources */,
+				3DA21EFF1B79AD0400EAC687 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA21F021B79AD0400EAC687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA21EEE1B79AD0400EAC687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA21EFA1B79AD0400EAC687 /* ViewController.swift in Sources */,
+				3DA21EF81B79AD0400EAC687 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA21F001B79AD0400EAC687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA21F0B1B79AD0400EAC687 /* Media_Fest_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DA21F061B79AD0400EAC687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA21EF11B79AD0400EAC687 /* Media Fest OSX */;
+			targetProxy = 3DA21F051B79AD0400EAC687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DA21EFD1B79AD0400EAC687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA21EFE1B79AD0400EAC687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DA21F0C1B79AD0400EAC687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DA21F0D1B79AD0400EAC687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3DA21F0F1B79AD0400EAC687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Media Fest OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DA21F101B79AD0400EAC687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Media Fest OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DA21F121B79AD0400EAC687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Media Fest OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Media Fest OSX.app/Contents/MacOS/Media Fest OSX";
+			};
+			name = Debug;
+		};
+		3DA21F131B79AD0400EAC687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Media Fest OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Media Fest OSX.app/Contents/MacOS/Media Fest OSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA21EED1B79AD0400EAC687 /* Build configuration list for PBXProject "Media Fest OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA21F0C1B79AD0400EAC687 /* Debug */,
+				3DA21F0D1B79AD0400EAC687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA21F0E1B79AD0400EAC687 /* Build configuration list for PBXNativeTarget "Media Fest OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA21F0F1B79AD0400EAC687 /* Debug */,
+				3DA21F101B79AD0400EAC687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA21F111B79AD0400EAC687 /* Build configuration list for PBXNativeTarget "Media Fest OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA21F121B79AD0400EAC687 /* Debug */,
+				3DA21F131B79AD0400EAC687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA21EEA1B79AD0400EAC687 /* Project object */;
+}
